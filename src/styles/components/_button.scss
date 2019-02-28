@@ -1,0 +1,11 @@
+.custom-button {
+  border: 0;
+  outline: 0;
+  font-size: pxToRem(16px);
+  height: pxToRem(42px);
+  border-radius: 6px;
+  background-color: $buttonPrimaryColor;
+  color: white;
+  cursor: pointer;
+  padding: pxToRem(10px) pxToRem(15px);
+}

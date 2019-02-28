@@ -1,0 +1,19 @@
+{
+  "COMMON": {
+    "REFRESH": "Rafraîchir l’écran"
+  },
+  "CARD": {
+    "FOLLOWED_BY_": "Suivi par",
+    "FOLLOWED_BY_NO_ONE_": "par personne :(",
+    "REPOSITORIES": "repositories"
+  },
+  "ERROR": {
+    "NO_RESULTS": "Aucun résultat ne correspond à votre recherche",
+    "SERVER_ERROR": "Aïe, il semblerait qu’il y ait une erreur technique"
+  },
+  "SORTING": {
+    "TOTAL_REPOSITORIES": "Nombre de repositories",
+    "TOTAL_FOLLOWERS": "Nombre de followers",
+    "TOTAL_SCORE": "Nombre de score"
+  }
+}

@@ -1,0 +1,30 @@
+html { 
+    font-family: $fontFamily !important;
+}
+
+html, 
+body,
+#root {
+    position: relative;
+    font-size: 12px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $mainBackgroundColor;
+    width: 100%;
+
+    // Enlarge everything at low screen resolution
+    @media (max-width: $breakpointSmall) {
+        font-size: 16px;
+    }
+}
+
+#app {
+    margin: 50px 0;
+    height: inherit;
+    width: 45.8333333333333%;
+
+    @media (max-width: $breakpointSmall){
+        width: 90%;
+    }
+}

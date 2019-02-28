@@ -1,0 +1,14 @@
+.sorting {  
+  &-container {
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    margin: pxToRem(15px) 0;
+    font-size: pxToRem(14px);
+    text-align: right;
+    height: pxToRem(20px); // fixed height to avoid jumping with the list of cards
+  }
+  &__text {
+    margin-right: pxToRem(7px);
+  }
+}

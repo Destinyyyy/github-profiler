@@ -1,0 +1,35 @@
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: pxToRem(135px);
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+
+  &__button {
+    display: flex;
+  }
+
+  &__no-results-image,
+  &__internal-error-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: pxToRem(125px);
+    height: pxToRem(125px);
+    margin-bottom: pxToRem(25px);
+  }
+
+  &__no-results-image {
+    background-image: url('../assets/no-results.svg');
+  }
+
+  &__internal-error-image {
+    background-image: url('../assets/internal-error.svg');
+  }
+
+  &__message {
+    margin-bottom: pxToRem(40px);
+  }
+}

@@ -1,0 +1,25 @@
+.dropdown-modal {
+  position: absolute;
+  right: 0;
+  top: pxToRem(25px);
+  border-radius: 10px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border: solid 0.5px #a6a6a6;
+  background-color: #ffffff;
+
+  &__element {
+    text-align: left;
+    padding: pxToRem(10px) pxToRem(20px);
+    &:first-child {
+      padding-top: pxToRem(20px);
+    }
+
+    &:last-child {
+      padding-bottom: pxToRem(20px);
+    }
+
+    &:hover {
+      background-color: $primaryHoverColor;
+    }
+  }
+}

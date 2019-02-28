@@ -1,0 +1,32 @@
+.search-bar {
+  &-container {
+    position: relative;
+    width: 100%;
+  }
+
+  &__label {
+    position: absolute;
+    left: pxToRem(15px);
+    top: 50%;
+    width: pxToRem(28px);
+    height: pxToRem(28px);
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-image: url('../assets/magnifier.svg');
+    background-size: cover;
+  }
+
+  &__input {
+    width: inherit;
+    height: pxToRem(60px);
+    border-radius: 6px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    border: solid 0.5px #a6a6a6;
+    background-color: #ffffff;
+    caret-color: $caretColor;
+    font-size: pxToRem(22px);
+    color: #484848;
+    padding: 0 pxToRem(15px) 0 pxToRem(45px);
+    outline: 0;
+  }
+}
